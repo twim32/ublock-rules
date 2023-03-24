@@ -1,0 +1,16 @@
+||strm.yandex.ru
+||yandex.ru/ads/*
+||mc.yandex.ru/metrika/watch.js
+||top-fwz1.mail.ru^
+||consensu.org^
+||counter.yadro.ru
+||stripe.com^
+||stripe.network^
+||googletagmanager.com
+||google-analytics.com
+
+||accounts.google.com/gsi/*.js
+! iogames
+||doorbell.io^
+||adinplay.com^
+||yolamedia.com^
