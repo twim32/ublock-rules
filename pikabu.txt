@@ -1,0 +1,125 @@
+!!! Pikabu.ru
+
+! Рекламные посты
+pikabu.ru##:xpath(//div[@class="story__pin"]/ancestor::article)
+pikabu.ru##:xpath(//svg[@class="icon icon--ui__pin"]/ancestor::article)
+
+! Блок с быстрыми ссылками
+pikabu.ru##:xpath(//div[contains(@class, "fast-links")])
+
+! Рекомендуемые сообщества
+pikabu.ru##:xpath(//section[contains(@class, "recommended-communities")])
+
+! Ачивки
+pikabu.ru##:xpath(//div[contains(@class, "sidebar-achievements")])
+
+!Посты Проект Пикабу
+pikabu.ru##:xpath(//h2[. = 'Проект Пикабу']/ancestor::section)
+
+!Посты Партнёрский материал
+pikabu.ru##:xpath(//h2[. = 'Партнёрский материал']/ancestor::section)
+
+!Посты Новое в ваших подписках
+pikabu.ru##:xpath(//h2[. = 'Новое в ваших подписках']/ancestor::section)
+
+pikabu.ru##:xpath(//h2[. = 'Курсы Пикабу']/ancestor::section)
+
+! Всплывающее окно (не помню какое)
+pikabu.ru##:xpath(//div[@class="popup__overlay"])
+
+! Убрать рейтинг в топе комментаторов
+pikabu.ru##:xpath(//span[. = 'в топе комментаторов']/ancestor::div[@id="profile-info-rating"])
+
+! Рекламные посты из ленты
+pikabu.ru##:xpath(//a[contains(@class, "story__sponsor")]/ancestor::article/div[@class="story__main"])
+pikabu.ru##:xpath(//span[contains(@class, "story__sponsor")]/ancestor::article/div[@class="story__main"])
+pikabu.ru##:xpath(//div[@class="header-right-menu"]/a[@rel="nofollow noopener"])
+pikabu.ru##:xpath(//span[. = 'Проект Пикабу']/ancestor::section)
+pikabu.ru##:xpath(//span[. = 'Партнёрский материал']/ancestor::section)
+pikabu.ru##:xpath(//span[. = 'Новое в ваших подписках']/ancestor::section)
+
+pikabu.ru##:xpath(//h2[. = 'Курсы Пикабу']/ancestor::section)
+
+! Общее
+!!! Кнопка "Курсы"
+pikabu.ru##:xpath(//a[contains(@href, "study.pikabu.ru")])
+!!! Кнопка "Блоги"
+pikabu.ru##:xpath(//a[@href="/companies"])
+
+! Левый столб
+
+!!! Блок "Мои подписчики"
+pikabu.ru##:xpath(//div[contains(@class, "profile-info__item")][2])
+
+!!! Подписки
+pikabu.ru##:xpath(//div[contains(@class, "subscriptions-filter")])
+
+!!! Кнопка "Создать сообщество"
+pikabu.ru##:xpath(//a[@href="/communities/add"])
+
+!!! Комментарий дня
+pikabu.ru##:xpath(//h4[. = 'Комментарий дня']/ancestor::div[contains(@class, "sidebar-block")])
+
+!!! Яндекс реклама
+pikabu.ru##:xpath(//div[@style = 'width: 100%;']/ancestor::div[contains(@class, "sidebar-block")])
+
+!!! Топ прошлой недели
+pikabu.ru##:xpath(//div[contains(@class, "sidebar-public-ratings")])
+
+!!! Рекомендуемое сообщество
+pikabu.ru##:xpath(//div[@data-type="recommended"])
+
+!!! Пикабу в мессенджерах
+pikabu.ru##:xpath(//div[contains(@class, "messengers-widget")])
+
+!!! Управление с клавиатуры
+pikabu.ru##:xpath(//div[contains(@class, "keyboard-controls")])
+
+!!! Активные сообщества
+pikabu.ru##:xpath(//div[contains(@class, "communities-list")])
+
+!!! Тенденции
+pikabu.ru##:xpath(//div[@data-type="popular-tags"])
+
+!!! Пустые блоки с логотипом
+pikabu.ru##:xpath(//div[contains(@class, "sidebar-block_placeholder")])
+
+!!! Мои обсуждения
+pikabu.ru##:xpath(//h4[. = 'Мои обсуждения']/ancestor::div[contains(@class, "sidebar-block")])
+
+!!! Footer
+pikabu.ru##:xpath(//div[contains(@class, "sidebar-footer")])
+
+!! Правое меню
+!!! Кнопка "Редактирование тегов"
+pikabu.ru##:xpath(//a[@href="/edits"])
+
+!! Верхнее меню
+
+!! Лента
+!!! Кнопка доната "Поддержать"
+pikabu.ru##:xpath(//div[contains(@class, "story__donate")])
+
+!!! Кнопка эмоций
+pikabu.ru##:xpath(//div[contains(@class, "story__emotions")])
+
+!!! smartbanner
+pikabu.ru##:xpath(//div[contains(@class, "smartbanner")])
+
+!!! promo-banner
+pikabu.ru##:xpath(//div[contains(@class, "promo-banner")])
+
+! реклама справа
+razlozhi.ru##:xpath(//html/body/div[2]/div[2]/div) 
+||st2.razlozhi.ru/746/js/errs.js
+||st2.razlozhi.ru/746/js/gdkqudx6sfr.js
+
+!!! Релама в посте после видео
+pikabu.ru##:xpath(//div[contains(@class, "player__adfox")])
+
+!!! Футер (временно отключен из-за кнопки "следующий пост")
+!pikabu.ru##:xpath(//footer)
+
+||strm.yandex.ru
+||*.pikabu.ru/evl.php
+
