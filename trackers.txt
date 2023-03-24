@@ -1,6 +1,48 @@
-||strm.yandex.ru
-||yandex.ru/ads/*
+! ALLOWED
+@@||warehouse^$domain=warehouse
+
+! DEINED
+!!! TRACKERS
 ||mc.yandex.ru/metrika/watch.js
+||adfox.ru
+||vk.com/js/api/openapi.js
+||googletagmanager.com/gtag/js
+||mradx.net
+||counter.yadro.ru
+||ad.mail.ru
+||smailru.net
+||https://vk.com/share.php
+!||*sentry*
+||https://minigames.imgsmail.ru/
+||webpulse.imgsmail.ru
+||pulse.imgsmail.ru
+||calls.mail.ru
+||mradx.net 
+||trk.mail.ru
+||e.mail.ru/api/v1/utils/xray/
+||bugsnag.com
+||cwchmb.com
+
+// Services
+!! mail.ru
+||static.pulse.mail.ru^
+||rs.mail.ru^
+||ad.mail.ru^
+||reklama.mail.ru^
+||an.mail.ru^
+||b2.mail.ru^
+||portail.mail.ru^
+||xray.mail.ru^
+||r3.mail.ru^
+||bar.love.mail.ru^
+||trk.mail.ru^
+||recostream.go.mail.ru^
+||multimedia.pulse.mail.ru^
+||trk.mail.ru^
+!!!||filin.mail.ru^
+||rebus.e.mail.ru^
+||calls.mail.ru^
+||kino.mail.ru^
 ||top-fwz1.mail.ru^
 ||consensu.org^
 ||counter.yadro.ru
@@ -14,3 +56,33 @@
 ||doorbell.io^
 ||adinplay.com^
 ||yolamedia.com^
+
+www.beermachines.ru/bitrix/tools/arturgolubev.ecommerce/getscripts_v2.php
+googletagmanager.com
+*.jivosite.com
+
+!!! Rutracker
+rutracker.ru##:xpath(//td[contains(@class, "contactadv")])
+
+||strm.yandex.ru
+||yandex.ru/ads/*
+
+!!! Mail.ru
+e.mail.ru##:xpath(//div[contains(@class, "application-mail__layout_main")]/span/div[3])
+e.mail.ru##:xpath(//div[@class="addPhone-popup-wrapper"])
+e.mail.ru##:xpath(//div[@class="ReactVirtualized__Grid__innerScrollContainer"]/div[1])
+e.mail.ru##:xpath(//div[@class="ReactVirtualized__Grid__innerScrollContainer"]/div[2])
+e.mail.ru##:xpath(//div[@class="ReactVirtualized__Grid__innerScrollContainer"]/div[3])
+minigames.mail.ru##:xpath(//div[@style="padding-left: 0px; padding-right: 0px;"])
+minigames.mail.ru##:xpath(//div[@style="width: 800px;"])
+minigames.mail.ru##:xpath(//div[@style="transform: translateY(0px);"])
+
+
+!!! VK
+vk.com##:xpath(//div[@id="ads_left"])
+
+cyberforum.ru##:xpath(//a[ . ="Programming"]/ancestor::table[@class="tborder"])
+cyberforum.ru##:xpath(//a[ . ="IT_Exp"]/ancestor::table[@class="tborder"])
+
+!!! Forem
+leforem.be##:xpath(//div[@id="tarteaucitronAlertBig"])
