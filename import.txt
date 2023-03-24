@@ -1,0 +1,2 @@
+https://raw.githubusercontent.com/twim32/ublock-rules/master/pikabu.txt
+https://raw.githubusercontent.com/twim32/ublock-rules/master/trackers.txt
