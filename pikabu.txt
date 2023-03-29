@@ -123,3 +123,5 @@ pikabu.ru##:xpath(//div[contains(@class, "player__adfox")])
 ||strm.yandex.ru
 ||*.pikabu.ru/evl.php
 
+pikabu.ru##:xpath(//span[. = 'Больше видео']/ancestor::button)
+pikabu.ru##:xpath(//span[. = 'Следующий пост']/ancestor::button)
