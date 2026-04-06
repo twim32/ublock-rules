@@ -17,3 +17,6 @@ pikabu.ru##:xpath(//a[contains(@href, "/shop")])
 
 !! Emoticons
 pikabu.ru##:xpath(//div[contains(@class, "story__emotions")])
+
+!! Games
+pikabu.ru##:xpath(//div[contains(@class, "feed-games-carousel")])
