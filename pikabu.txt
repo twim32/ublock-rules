@@ -1,5 +1,3 @@
-!!! Pikabu.ru
-
 ### 2026-04-06
 ## Clean right sidebar
 pikabu.ru##:xpath(//div[contains(@class, 'sidebar-public-ratings') or contains(@class, 'sidebar-block_mail') or contains(@class, 'sidebar-block-links') or contains(@class, 'gamification-tasks-carousel') or @data-role="account-confirm" or contains(@class, 'story-block_type_fundraising') or contains(@class, 'community-comments') or contains(@class, 'story__author-panel')])
