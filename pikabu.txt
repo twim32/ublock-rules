@@ -13,3 +13,7 @@ pikabu.ru##:xpath(//div[contains(@class, "page-topic-links")])
 pikabu.ru##:xpath(//div[contains(@class, "related-stories-feed")])
 pikabu.ru##:xpath(//a[contains(@href, "/companies")])
 pikabu.ru##:xpath(//a[contains(@href, "/shop")])
+
+
+!! Emoticons
+pikabu.ru##:xpath(//div[contains(@class, "story__emotions")])
