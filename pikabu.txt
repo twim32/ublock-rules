@@ -2,7 +2,7 @@
 !! Clean right sidebar
 pikabu.ru##:xpath(//div[contains(@class, 'sidebar-public-ratings') or contains(@class, 'sidebar-block_mail') or contains(@class, 'sidebar-block-links') or contains(@class, 'gamification-tasks-carousel') or @data-role="account-confirm" or contains(@class, 'story-block_type_fundraising') or contains(@class, 'community-comments') or contains(@class, 'story__author-panel')])
 pikabu.ru##:xpath(//aside[contains(@class, 'sidebar__inner')]/section)
-pikabu.ru##:xpath(//span[@aria-label="Блог компании"]/ancestor::article)
+pikabu.ru##:xpath(//span[@aria-label="Блог компании" or @aria-label="Блоги компаний"]/ancestor::article)
 
 !! Remove badges
 pikabu.ru##:xpath(//div[contains(@class, 'pkb-badge-shop')])
