@@ -125,3 +125,20 @@ pikabu.ru##:xpath(//div[contains(@class, "player__adfox")])
 
 pikabu.ru##:xpath(//span[. = 'Больше видео']/ancestor::button)
 pikabu.ru##:xpath(//span[. = 'Следующий пост']/ancestor::button)
+
+
+### 2026-04-06
+## Clean right sidebar
+pikabu.ru##:xpath(//div[contains(@class, 'sidebar-public-ratings') or contains(@class, 'sidebar-block_mail') or contains(@class, 'sidebar-block-links') or contains(@class, 'gamification-tasks-carousel') or @data-role="account-confirm" or contains(@class, 'story-block_type_fundraising') or contains(@class, 'community-comments') or contains(@class, 'story__author-panel')])
+pikabu.ru##:xpath(//aside[contains(@class, 'sidebar__inner')]/section)
+pikabu.ru##:xpath(//span[@aria-label="Блог компании"]/ancestor::article)
+
+## Remove badges
+pikabu.ru##:xpath(//div[contains(@class, 'pkb-badge-shop')])
+pikabu.ru##:xpath(//span[contains(@class, 'pkb-badge-shop')])
+
+## Remove links
+pikabu.ru##:xpath(//div[contains(@class, "page-topic-links")])
+pikabu.ru##:xpath(//div[contains(@class, "related-stories-feed")])
+pikabu.ru##:xpath(//a[contains(@href, "/companies")])
+pikabu.ru##:xpath(//a[contains(@href, "/shop")])
