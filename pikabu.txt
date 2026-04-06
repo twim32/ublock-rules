@@ -20,3 +20,9 @@ pikabu.ru##:xpath(//div[contains(@class, "story__emotions")])
 
 !! Games
 pikabu.ru##:xpath(//div[contains(@class, "feed-games-carousel")])
+
+
+!! 2026-06-07
+
+pikabu.ru##:xpath(//div[contains(@class, "promo-banner ")])
+pikabu.ru##:xpath(//a[contains(@href, "/tvoi-finansy")])
