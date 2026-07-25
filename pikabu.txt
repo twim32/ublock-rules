@@ -30,5 +30,8 @@ pikabu.ru##:xpath(//a[contains(@href, "/tvoi-finansy")])
 !! 2026-07-25
 pikabu.ru##:xpath(//div[contains(@class, "comment__emotions")])
 pikabu.ru##:xpath(//article[.//a[contains(normalize-space(), "skidka2025")]])
-# pikabu.ru##:xpath(//*[text()="platipomiru" or text()="CodeTop.Shop" or text()="Oplatym.ru"]/ancestor::article)
 pikabu.ru##:xpath(//article[not(@data-timestamp) and not(@data-theme)])
+
+# These 2 elements must have same params for desktop and mobile versions
+pikabu.ru##:xpath(//a[text()="platipomiru" or text()="CodeTop.Shop" or text()="Oplatym.ru"]/ancestor::article)
+pikabu.ru##:xpath(//span[text()="platipomiru" or text()="CodeTop.Shop" or text()="Oplatym.ru"]/ancestor::article)
